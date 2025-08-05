@@ -2,14 +2,14 @@
 
 This project aims to understand the relationship between different advertising channels, such as TV, Radio, Newspapers, and product sales.
 
-#Project Overview
+# Project Overview
 The goal of the project is to provide actionable insights for a business by calculating future sales predictions.
 
-#Dataset
+# Dataset
 The dataset used is the "Advertising" dataset, containing 200 samples of spending across three channels.
 **Source**: Available through "Archive.zp" attached above.
 
-#Methodology
+# Methodology
 The project follows a standard machine learning workflow:
 1. Data Loading & Cleaning           - pandas
 2. Exploratory Data Analysis (EDA)   - seaborn and matplotlib
@@ -17,13 +17,13 @@ The project follows a standard machine learning workflow:
 4. Model Building                    - LinearRegression
 5. Model Evaluation
 
-#Key Findings & Results
+# Key Findings & Results
 
 1. Strongest Predictor: TV 
 2. Model Performance: R-squared (R^2) value of approximately 0.90 or 90%.
 3. Coefficients: For every $1,000 spent on TV advertising, sales are predicted to increase by approx 54 units, holding other factors constant.
 
-#Technologies Used
+# Technologies Used
 1. Python 3
 2. Pandas
 3. NumPy
